@@ -19,9 +19,9 @@ async function validar(usuario, pass) {
         usuarioEncontrado.username
       );
       let canva = document.getElementById("canva");
-      canva.innerHTML = `<div class="mensaje">
+      canva.innerHTML = `<div class="mensaje borde">
         Has iniciado sesión correctamente!
-        <button onclick="imprimir('${usuarioEncontrado.username}')">Continuar</button>
+        <button onclick="imprimir('${usuarioEncontrado.username}')" class="borde btnStyle">Continuar</button>
       </div>`;
     } else {
       console.log("Usuario o contraseña incorrectos");
@@ -141,3 +141,4 @@ async function obtenerUsuarios() {
 
 //contraseña:
 //*Aa123456
+//https://github.com/hectorProgrammer10/busquedaNombre.git

@@ -40,10 +40,12 @@ function mostrarResultados(resultados) {
 function imprimir(usuario) {
   let canva = document.getElementById("canva");
   canva.innerHTML = `
+  <div class="busqueda">
   <h1>Hola ${usuario}</h1>
   <h1>Buscador de Registros</h1>
   <label for="searchInput">Ingrese el nombre a buscar:</label>
-  <input type="text" id="searchInput" />
-  <button onclick="buscar()">Buscar</button>
-  <div id="resultados"></div>`;
+  <input type="text" id="searchInput" class="borde" />
+  <button onclick="buscar()" class="borde btnStyle">Buscar</button>
+  <div id="resultados" class="borde"></div>
+  </div>`;
 }

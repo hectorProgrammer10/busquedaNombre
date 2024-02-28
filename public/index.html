@@ -3,20 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Buscador de Registros</title>
   </head>
   <body>
-    <div class="canva" id="canva">
-      <div class="form">
+    <div class="canva borde" id="canva">
+      <div class="form borde">
         <div class="campos">
           <label for="">Nombre de Usuario:</label>
-          <input type="text" id="usuario" />
+          <input type="text" id="usuario" class="borde" />
           <label for="">Contraseña:</label>
-          <input type="text" id="pass" />
+          <input type="text" id="pass" class="borde" />
         </div>
         <div class="botones">
-          <button onclick="inicio(1)">Iniciar sesion</button>
-          <button onclick="inicio(2)">Registrar</button>
+          <button onclick="inicio(1)" class="borde btnStyle" id="btnSesion">
+            Iniciar sesion
+          </button>
+          <button onclick="inicio(2)" class="borde btnStyle" id="btnRegistro">
+            Registrar
+          </button>
         </div>
       </div>
     </div>

@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.borde{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.canva{
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -5%;
+}
+.campos{
+  display: flex;
+  flex-direction: column;
+}
+.campos input{
+  margin-bottom: 10%;
+}
+input{
+  height: 20px;
+}
+
+.botones{
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.btnStyle:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* ---------- */
+.mensaje{
+  height: 10%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -10%;
+  justify-content: space-around;
+}
+/* --------- */
+.busqueda{
+  height: 90%;
+  width: 80%;
+  padding: 3%;
+}
+#resultados li{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  /* border-radius: 5px; */
+  margin: 10px;
+}
+
+
+
